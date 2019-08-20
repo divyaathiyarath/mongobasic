@@ -16,7 +16,7 @@ app.post('/read',(req,res)=>
  var college=req.body.college;
 res.send({name,admno,college,rollno});
 });
-app.listen(3000,()=>
+app.listen(process.env.PORT || 3000,()=>
 {
     console.log("Server is running");
 });
