@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        input{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body style="background-color: grey">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form action="/read" method="POST" style="margin-top: 200px;margin-left:300px;">
+                    <table>
+                        <tr><th>Name:</th><td><input type="text" name="name" class="form-control"></td></tr>
+                        <tr><th>Rollno:</th><td><input type="text" name="rollno" class="form-control"></td></tr>
+                        <tr><th>Admission no:</th><td><input type="text" name="admno" class="form-control"></td></tr>
+                        <tr><th>College:</th><td><input type="text" name="college" class="form-control"></td></tr>
+                    </table>
+                    <button type="submit" class="btn btn-success" style="margin-left: 150px;margin-top: 50px;">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
